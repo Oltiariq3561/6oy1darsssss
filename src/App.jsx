@@ -1,4 +1,9 @@
 import './App.css'
+import img1 from './assets/Group 8.png'
+import img2 from './assets/img2.png'
+import flex1 from './assets/flex1.svg'
+import flex2 from './assets/flex2.svg'
+import flex3 from "./assets/flex3.svg"
 function App(){
   return (
     <div className="card">
@@ -6,7 +11,6 @@ function App(){
       <div className="header__conteiner">
         <div className="logo">
           <h3>myteam</h3>
-          
         </div>
         <div className="nav">
           <ul className="nav-item">
@@ -24,6 +28,8 @@ function App(){
       </div>
         <div className="hero__conteiner">
           <div className="find">
+            <img className='img' src={img1} alt="" />
+            <img className='img2' src={img2} alt="" />
             <h1>Find the <br /> best <span>talent</span></h1>
           </div>
           <div className="text">
@@ -39,9 +45,20 @@ function App(){
             <h3>Build & manage <br /> distributed teams <br /> like no one else.</h3>
           </div>
           <div className="icons">
+            <div className="flex1">
+              <img src={flex1} alt="" />
             <p><span>Experienced Individuals</span> <br /> Our network is made up of highly experienced professionals <br /> who are passionate about what they do.</p>
-            <p><span>Easy to Implement</span> <br />  Our processes have been refined over years of implementation <br /> meaning our teams always deliver.</p>
-            <p><span>Enhanced Productivity</span> <br /> Our customized platform with in-built analytics helps you <br /> manage your distributed teams.</p>
+            </div>
+           <div className="flex1">
+            <img src={flex2} alt="" />
+           <p><span>Easy to Implement </span> <br />  Our processes have been refined over years of implementation <br /> meaning our teams always deliver.</p>
+           </div>
+
+             <div className="flex1">
+              <img src={flex3} alt="" />
+             <p><span>Enhanced Productivity</span> <br /> Our customized platform with in-built analytics helps you <br /> manage your distributed teams.</p>
+              </div> 
+            
           </div>
         </div>
 

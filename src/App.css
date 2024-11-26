@@ -160,3 +160,17 @@ body{
   border-radius: 24px;
   color: #012F34;
 }
+.img{
+  position: absolute;
+  margin-left: -165px;
+}
+.img2{
+  position: absolute;
+  margin-left: 750px;
+  margin-top: 378px;
+}
+
+.flex1{
+display: flex;
+align-items: center;
+}
